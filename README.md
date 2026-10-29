@@ -16,6 +16,9 @@ docker build -t flask-cicd-demo:latest .
 docker run -p 5000:5000 flask-cicd-demo:latest
 ```
 Open http://localhost:5000 and http://localhost:5000/health
+## Pipeline result
+<img width="1896" height="582" alt="Screenshot 2026-10-29 185549" src="https://github.com/user-attachments/assets/b6aa6fc4-02e1-4b6e-a935-64fd1e44fc67" />
+
 
 ## Run the tests
 ```bash
